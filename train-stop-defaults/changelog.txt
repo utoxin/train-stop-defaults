@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2021/08/25
+  Features:
+    - Added a toggle for players and bots to disable the behavior. This allows the use of '0' as a limit.
+  Changes:
+    - 0 can now be used as a default train limit.
+  Info:
+    - This changelog.
+  Known Issues:
+    - Blueprinted stations with no limits set will have a limit applied if this mod is enabled. You can work around
+      this to a limited extent by disabling this feature for bots.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2021/08/24
+  Bugfixes:
+    - Fixed bug with blueprinted settings being overwritten.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2021/08/24
+  Features:
+    - Settings for players and bots to control what the default train limit is set to when you place a train stop.
+      The bot limit is used when a train is placed for a blueprint by a construction bot.
+  Known Issues:
+    - A bug was fixed in the next release that would replace blueprinted station limits.
