@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024/10/26
+  Added:
+    - Support for modifying the default train stop priority if you want to. Note: This will change blueprinted values if they are the normal default.
+  Changes:
+    - Updated to Factorio 2.0.0
+    - Removed flib dependency
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2024/03/16
   Changes:
